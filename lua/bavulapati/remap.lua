@@ -1,7 +1,3 @@
--- Set <space> as the leader key
--- See `:help mapleader`
-vim.g.mapleader = " "
-
 -- Navigate buffers
 -- Buffers are the files loaded in memory
 -- Windows, tabs and panes are visual representation of buffers
