@@ -55,17 +55,7 @@ vim.o.expandtab = true
 vim.o.splitright = true
 
 -- Folding
-vim.o.foldmethod = 'syntax'
-
--- [[ File explorer Netrw ]]
--- Tree style
-vim.g.netrw_liststyle = 3
--- Remove banner
-vim.g.netrw_banner = 0
--- Change from left splitting to right splitting
-vim.g.netrw_altv = 1
--- Open files in the previous window by default
-vim.g.netrw_browse_split = 4
--- Set the pane width to 25 characters
-vim.g.netrw_winsize = -25
+vim.o.foldmethod = 'expr'
+vim.o.foldexpr = 'nvim_treesitter#foldexpr()'
+vim.o.foldenable = false
 
