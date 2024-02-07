@@ -13,6 +13,8 @@ vim.keymap.set({ "v", "i" }, "jk", "<Esc>")
 vim.keymap.set({ "v", "i" }, "kj", "<Esc>")
 vim.keymap.set({ "v", "i" }, "C-c", "<Esc>")
 vim.keymap.set({ "v", "i" }, "<Esc>", "<nop>")
+-- Setup for terminal mode
+vim.keymap.set("t", "jk", "<C-\\><C-n>")
 
 -- Disable mouse scrolling
 vim.keymap.set({ "n", "v", "o" }, "<ScrollWheelUp>", "<nop>")

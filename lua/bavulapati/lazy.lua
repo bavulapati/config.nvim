@@ -28,6 +28,8 @@ require("lazy").setup(
       lazy = false, -- load this during startup, as it is my main colorscheme
       priority = 1000, -- make sure to load this before  all the other start plugins
     },
+	-- Remove colors to make vim editor transparent
+	'xiyaowong/nvim-transparent',
 
     -- Nvim tree
     {
@@ -88,7 +90,8 @@ require("lazy").setup(
         {'L3MON4D3/LuaSnip'},     -- Required
       }
     },
-    'github/copilot.vim'
+    'github/copilot.vim',
+    'folke/twilight.nvim'
   }
 )
 

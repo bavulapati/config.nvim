@@ -44,6 +44,7 @@ vim.opt.completeopt = 'menuone,noselect'
 
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
+vim.o.shell = 'pwsh'
 
 -- Hide * markup for bold and italics
 vim.o.conceallevel = 3
